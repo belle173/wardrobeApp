@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TouchSliderComponent } from './touch-slider/touch-slider.component';
-import { WeatherComponent } from './weather/weather.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -14,7 +13,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     TouchSliderComponent,
-    WeatherComponent,
   
   ],
   imports: [
